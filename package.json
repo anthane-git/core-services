@@ -1,6 +1,6 @@
 {
 	"name": "@anthane/core-services",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Straightforward interface to interact with Anthane Cloud ecosystem.",
 	"publishConfig": {
 		"access": "public",
