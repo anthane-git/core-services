@@ -35,6 +35,7 @@ export default {
 			include: ['src/**/*'],
 			babelHelpers: 'bundled',
 		}),
+		json(),
 		filesize(),
 	],
 	external: [
