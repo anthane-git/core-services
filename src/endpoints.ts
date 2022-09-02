@@ -7,3 +7,7 @@ export const endpoints = {
 		usersMe: `${IDP_API_ENTRYPOINT}/users/me`,
 	},
 };
+
+export const extendEndpoints = (obj: object) => {
+	return Object.assign(endpoints, obj);
+};
