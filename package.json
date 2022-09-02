@@ -1,6 +1,6 @@
 {
 	"name": "@anthane/core-services",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Straightforward interface to interact with Anthane Cloud ecosystem.",
 	"publishConfig": {
 		"access": "public",
@@ -16,14 +16,14 @@
 		"test": "jest",
 		"prepublishOnly": "npm run build"
 	},
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.mjs",
+	"main": "dist/cjs/src/index.js",
+	"module": "dist/esm/src/index.mjs",
 	"types": "dist/types/src/index.d.ts",
 	"exports": {
 		".": {
-			"types": "./dist/types/index.d.ts",
-			"import": "./dist/esm/index.mjs",
-			"require": "./dist/cjs/index.js"
+			"types": "./dist/types/src/index.d.ts",
+			"import": "./dist/esm/src/index.mjs",
+			"require": "./dist/cjs/src/index.js"
 		}
 	},
 	"files": [
