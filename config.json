@@ -1,4 +1,4 @@
 {
-	"IDP_API_ENTRYPOINT": "http://localhost:5500/v1",
-	"IDP_VIEW_ENTRYPOINT": "http://localhost:5000"
+	"IDP_API_ENTRYPOINT": "https://identity-provider.blazeclone.xyz/v1",
+	"IDP_VIEW_ENTRYPOINT": "https://identity-provider.blazeclone.xyz"
 }
